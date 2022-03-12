@@ -1,12 +1,36 @@
 #include "pch.h"
 #include "list.h"
+#include "iostream"
+//Kacper_Golan
 
+using  namespace std;
 
 
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
+		if (pRoot != NULL)
+
+		{
+			pRoot->pNext = NULL;
+
+			cout << "Status procesu = Sukces. Zalokowano pamięć" << endl;
+
+		}	else if (pRoot == NULL)
+		
+			{ 			
+					
+				cout << "Status procesu = Niepowodzenie. Brak miejsca w pamięci." << endl;
+				
+			}	else
+						
+				{
+							
+					cout << "Status procesu = Błąd. Nie rozpoznano błędu." << endl;
+
+				}
+
 	return pRoot;
 }
 
