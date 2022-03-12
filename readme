@@ -49,3 +49,8 @@ void mateusz_zielinski(void)
 {
 	Mateusz Zieliński
 }
+
+void pawel_prylinski(void)
+{
+	Paweł Pryliński
+}
