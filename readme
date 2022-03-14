@@ -49,3 +49,10 @@ void pawel_tomaszewski(void)
 {
 	Paweł Tomaszewski
 }
+
+void pawel_prylinski(void)
+{
+	Paweł Pryliński
+}
+
+
