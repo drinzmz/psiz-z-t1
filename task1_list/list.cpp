@@ -7,6 +7,16 @@ List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
+	
+	if (pRoot != NULL)
+	{
+		// Patryk Szadkowski
+		pRoot->entryTime = std::time(nullptr);
+		pRoot->pNext = NULL;
+
+		return pRoot;
+	}
+	
 	return pRoot;
 }
 
