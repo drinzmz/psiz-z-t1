@@ -5,9 +5,18 @@
 
 List* initList(void)
 {
-	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
-	return pRoot;
+List* pRoot = (List*)malloc(sizeof(*pRoot));
+if (pRoot != NULL)
+{
+      pRoot->pNext = NULL;
+      std::cout<< "Alokacja pamieci zakonczona pomyslnie";
+}
+else
+{
+      std::cout<< "Blad alokacji pamieci";
+     
+}
+      return pRoot;
 }
 
 void deinitList(List* pRoot)
