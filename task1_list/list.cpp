@@ -6,7 +6,25 @@
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
+	if (pRoot != NULL)
+
+	{
+		pRoot->pNext = NULL;
+		cout << "Przydzielono pamiec" << endl;
+
+		}	else if (pRoot == NULL)
+
+			{ 			
+
+				cout << "Nie znaleziono miejsca w pamieci." << endl;
+
+				}	else
+
+					{
+
+						cout << "Nieznany blad." << endl;
+
+						}
 	return pRoot;
 }
 
