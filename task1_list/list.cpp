@@ -1,12 +1,30 @@
 #include "pch.h"
 #include "list.h"
+#include "iostream"
+//Paweł Tomaszewski
 
+using  namespace std;
 
 
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
+	if (pRoot != NULL)
+
+		{
+		  	pRoot->pNext = NULL;
+			cout << "Pomyślnie Zalokowano pamięć" << endl;
+		}
+			else if (pRoot == NULL)
+
+			{ 			
+				cout << "Niepowodzenie - Brak miejsca w pamięci." << endl;
+			}	
+				else
+
+				{
+					cout << "Błąd - nie rozpoznano " << endl;
+				}
 	return pRoot;
 }
 
