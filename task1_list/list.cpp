@@ -7,6 +7,15 @@ List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
+	if (pRoot == NULL)
+	{
+		std::cout << "Blad! Brak miejsca";
+	}
+	else
+	{
+		pRoot->pNext = NULL;
+	}
+	
 	return pRoot;
 }
 
