@@ -1,14 +1,27 @@
 #include "pch.h"
 #include "list.h"
+#include "iostream"
 
-
+using namespace std;
 
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
+	if (pRoot != NULL)
+	{
+		pRoot->pNext = NULL;
+		cout << "Pamiec przydzielona" << endl;
+}
+	else if (pRoot == NULL) {
+		cout << "Brak miejsca w pamięci" << endl;
+	}
+	else
+	{
+		cout << "Blad!" << endl;
+	}
 	return pRoot;
 }
+//Michał Kaźmierski
 
 void deinitList(List* pRoot)
 {
