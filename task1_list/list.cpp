@@ -12,7 +12,6 @@ List* initList(void)
 
 void deinitList(List* pRoot)
 {
-	free(pRoot);
 	pRoot = NULL;
 }
 
