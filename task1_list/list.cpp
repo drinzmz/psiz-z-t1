@@ -4,6 +4,7 @@
 
 
 List* initList(void)
+	// Function to check free memory
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	
