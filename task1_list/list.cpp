@@ -22,7 +22,7 @@ void deinitList(List* pRoot)
 
 void addCar(List* pRoot, char* plateNum)
 {
-
+	plateNum = pRoot;
 }
 
 void removeCar(List* pRoot, char* plateNum)
