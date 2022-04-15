@@ -25,6 +25,7 @@ void addCar(List* pRoot, char* plateNum)
 	plateNum = pRoot;
 }
 
+//function car removal
 void removeCar(List* pRoot, char* plateNum)
 {
 
