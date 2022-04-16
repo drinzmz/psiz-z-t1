@@ -28,7 +28,7 @@ void addCar(List* pRoot, char* plateNum)
 void removeCar(List* pRoot, char* plateNum)
 {
 
-}
+} // Function to Printall List 
 void printAll(List* pRoot) {
 
 }
