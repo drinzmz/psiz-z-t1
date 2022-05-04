@@ -13,11 +13,8 @@ List* initList(void)
 
 void deinitList(List* pRoot)
 {
-	if(NULL != pRoot)
-	{
 	 free(pRoot);
 	 pRoot = NULL;
-	}
 }
 
 void addCar(List* pRoot, char* plateNum)
