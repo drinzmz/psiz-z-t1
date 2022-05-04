@@ -32,6 +32,7 @@ void deinitList(List* pRoot)
 {
 	free(pRoot);
 	pRoot = NULL;
+	//check function
 }
 
 void addCar(List* pRoot, char* plateNum)
