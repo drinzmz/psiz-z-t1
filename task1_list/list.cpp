@@ -7,6 +7,7 @@ using  namespace std;
 
 
 List* initList(void)
+	// Function to check free memory
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	if (pRoot != NULL)
@@ -30,20 +31,29 @@ List* initList(void)
 
 void deinitList(List* pRoot)
 {
+dev
 	free(pRoot);
 	pRoot = NULL;
 	
+	 free(pRoot);
+	 pRoot = NULL;
+ dev
 }
 
 void addCar(List* pRoot, char* plateNum) //Function add car
 {
+ dev
 }
 
+	plateNum = pRoot;
+}
 
+//function car removal
+ dev
 void removeCar(List* pRoot, char* plateNum)
 {
 
-}
+} // Function to Printall List 
 void printAll(List* pRoot) {
 
 }
