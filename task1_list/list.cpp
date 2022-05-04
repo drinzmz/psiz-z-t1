@@ -32,12 +32,12 @@ void deinitList(List* pRoot)
 {
 	free(pRoot);
 	pRoot = NULL;
-	//check function
+	
 }
 
 void addCar(List* pRoot, char* plateNum)
 {
-
+//function adding a new car to list
 }
 
 void removeCar(List* pRoot, char* plateNum)
