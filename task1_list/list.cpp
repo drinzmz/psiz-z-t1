@@ -37,7 +37,6 @@ void deinitList(List* pRoot)
 
 void addCar(List* pRoot, char* plateNum)
 {
-//function adding a new car to list
 }
 
 void removeCar(List* pRoot, char* plateNum)
