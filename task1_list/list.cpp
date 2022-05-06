@@ -44,8 +44,12 @@ void addCar(List* pRoot, char* plateNum) //Function add car
 {
  dev
 }
-
+	if (platenum == NULL) {
+		cout << "Brak tablicy"<< endl;
+		return 0;
+	}  else {
 	plateNum = pRoot;
+	}
 }
 
 //function car removal
