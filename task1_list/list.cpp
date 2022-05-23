@@ -44,7 +44,7 @@ void addCar(List* pRoot, char* plateNum) //Function add car
 {
  dev
 }
-	if (platenum == NULL) {
+	if (platenum == NULL) { // Check is platenumber is null
 		cout << "Brak tablicy"<< endl;
 		return 0;
 	}  else {
