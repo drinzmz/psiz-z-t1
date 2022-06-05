@@ -35,6 +35,11 @@ void patryk_szadkowski(void)
 	Patryk Szadkowski
 }
 
+void tomasz_majewski(void)
+{
+	Tomasz Majewski
+}
+
 void mateusz_kazmierski(void)
 {
 	Mateusz Kaźmierski
